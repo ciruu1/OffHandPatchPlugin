@@ -1,0 +1,5 @@
+name: OffhandPatch
+version: ${project.version}
+main: me.ciruu.offhandpatch.Offhandpatch
+authors: [ Ciruu ]
+description: Patchs offhand crystal
