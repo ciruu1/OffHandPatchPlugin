@@ -47,8 +47,8 @@ public final class Offhandpatch extends JavaPlugin implements Listener {
     }
 
     private boolean cancelAttack(Material mainHand, Material offHand, Player player) {
-        return ((mainHand == Material.GOLDEN_APPLE && offHand == Material.END_CRYSTAL) ||
-                ((mainHand == Material.END_CRYSTAL || mainHand == Material.DIAMOND_SWORD) && offHand == Material.GOLDEN_APPLE)
+        return (((mainHand == Material.GOLDEN_APPLE && offHand == Material.END_CRYSTAL) ||
+                ((mainHand == Material.END_CRYSTAL || mainHand == Material.DIAMOND_SWORD) && offHand == Material.GOLDEN_APPLE))
                         && player.getActiveItem().getType() == Material.GOLDEN_APPLE);
     }
 
